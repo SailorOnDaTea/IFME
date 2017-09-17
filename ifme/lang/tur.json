@@ -1,0 +1,150 @@
+{
+	"AuthorName": "SailorOnDaTea",
+	"AuthorEmail": "sailorondatea@msn.com",
+	"AuthorProfile": "https://www.facebook.com/SailorOnDaTea",
+	"UIFontWindows": "Tahoma, 8pt",
+	"UIFontLinux": "Nimbus Sans L, 8pt",
+	"ToolTipDonate": "Anime4000'e bu güzel program için teşekkürler! Kendisine bağışta bulunabilirsiniz.",
+	"frmMain": {
+		"tabGeneral": "Genel",
+		"grpTargetFormat": "Hedef Tür",
+		"rdoFormatMp4": "MP4",
+		"rdoFormatMkv": "MKV",
+		"rdoFormatWebm": "WEBM",
+		"rdoFormatAudioMp3": "MP3",
+		"rdoFormatAudioMp4": "MP4",
+		"rdoFormatAudioOgg": "OGG",
+		"rdoFormatAudioOpus": "OPUS",
+		"rdoFormatAudioFlac": "FLAC (kayıpsız)",
+		"grpStreamInfo": "Ortam Bilgisi",
+		"tabVideo": "Video",
+		"chkVideoDeinterlace": "Çöz?",
+		"grpVideoStream": "Akışlar",
+		"grpVideoCodec": "Kodek",
+		"lblVideoEncoder": "Kodlayıcı:",
+		"lblVideoPreset": "Önayarlar:",
+		"lblVideoTune": "ince ayar:",
+		"lblVideoRateControl": "Oran kontrolü:",
+		"lblVideoRateFactor": "Oran etmeni:",
+		"lblVideoMultiPass": "Çoklu geçiş:",
+		"btnVideoAdvDec":  "İleri çözücü seçenekleri",
+		"btnVideoAdv": "İleri kodlayıcı seçenekleri",
+		"grpVideoPicture": "Resim",
+		"lblVideoResolution": "Çözünürlük:",
+		"lblVideoFrameRate": "Kare hızı:",
+		"lblVideoBitDepth": "Bit Derinliği:",
+		"lblPixelFormat": "Pixel Türü:",
+		"lblVideoDeinterlaceMode": "Mod:",
+		"lblVideoDeinterlaceField": "Satır:",
+		"tabAudio": "Ses",
+		"grpAudioStream": "Akışlar",
+		"grpAudioCodec": "Kodek",
+		"lblAudioEncoder": "Kodlayıcı:",
+		"lblAudioQuality": "Kalite:",
+		"lblAudioSampleRate": "Örnekleme hızı:",
+		"lblAudioChannel": "Kanal:",
+		"btnAudioAdvDec": "İleri çözücü seçenekleri",
+		"btnAudioAdv": "İleri kodlayıcı seçenekleri",
+		"lblAudioMode": "Mod:",
+		"tabSubtitle": "Altyazı",
+		"lblSubLang": "Dil:",
+		"tabAttachment": "Ekler",
+		"lblAttachMime": "MIME türü:",
+		"lblEncodingPreset": "Kodlama önayarı:",
+		"lblOutputFolder": "Çıktı klasörü:",
+		"tabAdvance": "ileri",
+		"chkAdvTrim": "Video ve sesi kırp",
+		"lblAdvTimeStart": "Başlangıç:",
+		"lblAdvTimeEnd": "Bitiş:",
+		"lblAdvTimeDuration": "Uzunluk:"
+	},
+	"frmOption": {
+		"tabOptionGeneral": "Genel",
+		"grpLanguage": "Dil",
+		"grpTempFolder": "Geçici dizin",
+		"grpNewFilename": "Yeni dosya adı",
+		"grpNewFilenamePrefix": "Önek",
+		"rdoNamePrefixNone": "Yok",
+		"rdoNamePrefixDateTime": "Tarih Saat",
+		"rdoNamePrefixCustom": "Özel:",
+		"grpNewFilenamePostfix": "Sonek",
+		"rdoNamePostfixNone": "Yok",
+		"rdoNamePostfixCustom": "Özel:",
+		"tabOptionEncoding": "Kodlama",
+		"grpAviSynth": "AviSynth",
+		"lblAviSynthInstall": "Yüklenmiş!",
+		"lblAviSynthNoInstall": "Yüklenmemiş!",
+		"grpFFmpeg": "Varsayılan Çözücü",
+		"rdoFFmpeg32": "FFmpeg 32bit (AviSynth ST destekler)",
+		"rdoFFmpeg64": "FFmpeg 64bit (Yüksek çözünürlük ve bit deriniğini destekler)",
+		"grpFrameCountOffset": "Kare sayısı kaydırma",
+		"lblFrameCountOffset": "Değişken kare hızı sabit kare hızına çevrilecektir. Kaydırma değeri eklendiğinde çözücücü fazla kare sayısıyla bozuk konteynır verisini telafi edecektir. Böylece kodlama sırasında kayıp kare olmaması sağlanacaktır.",
+		"tabOptionModule": "Eklentiler",
+		"btnCancel": "İptal",
+		"btnOk": "Tamam"
+	},
+	"frmShutdown": {
+		"lblInfo": "Kodlama bittiğinde ne yapmalıyım?",
+		"btnOK": "Tamam"
+	},
+	"frmAbout": {
+		"lblDevTtitle": "Geliştirici",
+		"lblTechTitle": "Kullanılan Teknolojiler",
+		"lblArtTitle": "Eser Sanatçısı"
+	},
+	"frmCheckUpdate": {
+		"btnDownload": "İndir",
+		"btnOK": "Tamam"
+	},
+	"cmsNewImport": {
+		"tsmiNew": "Yeni",
+		"tsmiImport": "İçe aktar"
+	},
+	"cmsEncodingPreset": {
+		"tsmiEncodingPresetSave": "Kaydet",
+		"tsmiEncodingPresetSaveAs": "Farklı kaydet"
+	},
+	"InputBoxNewMedia": {
+		"Title": "Yeni ortam dosyası",
+		"Message": "Boş video, ses, altyazı ve yazıtipi akışı yaratmak üzeresiniz. \nDosya eklemek, birleştirmek veya çevirmek için kullanabilirsiniz.(Mkvtoolnix ya da MP4Box gibi)\nYeni dosya adı girin:"
+	},
+	"InputBoxEncodingPreset": {
+		"Title": "Yeni kodlama önayarı kaydet",
+		"Message": "Şimdiki konfigürasyonla bir önayar kaydetmek üzeresiniz. Bu önayarı başka videolar için de kullanabilirsiniz.\nYeni bir isim girin:"
+	},
+	"InputBoxCommandLine": {
+		"Title": "Kodlayıcı komut satırı",
+		"Message": "Örneğin: --bitdepth 8 şeklinde kodlayıcı parametrelerini değiştirin."
+	},
+	"InputBoxCommandLineFFmpeg": {
+		"Title": "Çözücü komut satırı",
+		"Message": "FFmpeg'deki komut satırı parametrelerini değiştirin.\nÖrneğin: -vf scale=640:480"
+	},
+	"MsgBoxShutdown": {
+		"Title": "Onay",
+		"Message": "Bu bilgisayar her şey bittikten sonra kapatılacak veya yeniden başlatılacak. Devam etmek istiyor musunuz?"
+	},
+	"MsgBoxSaveFolder": {
+		"Title": "Geçersiz yol",
+		"Message": "Ağ üzerinde kaydetme desteklenmemektedir. Lütfen bir sürücü seçin."
+	},
+	"MsgBoxCodecIncompatible": {
+		"Title": "Uyumsuz kodek",
+		"Message": "Çıktı türü ve kodek uymsuzdur. Başka bir şey seçin."
+	},
+	"ComboBoxDeInterlaceMode": [
+		"Sadece kareleri çöz",
+		"Tüm sıraları çöz",
+		"Uzaysal geçişli kare kontrolünü atla",
+		"Uzaysal geçişli satır kontrolünü atla"
+	],
+	"ComboBoxDeInterlaceField": [
+		"Önce üst satır",
+		"Önce alt satır"
+	],
+	"ComboBoxShutdown": [
+		"Bir şey yapma",
+		"Yeniden başlat",
+		"Kapat"
+	]
+}
